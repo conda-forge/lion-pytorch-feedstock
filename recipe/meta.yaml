@@ -23,6 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - pytorch >=1.6
+    - hatchling
 
 test:
   imports:
