@@ -1,5 +1,5 @@
 {% set name = "lion-pytorch" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.5" %}
 {% set python_min = "3.7" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lion_pytorch-{{ version }}.tar.gz
-  sha256: 42ba117ce857e9dd6c67c727e22e575671fd72e441900af137b05e7ee5c8fd88
+  sha256: fe8609a5a77fa8ba8399ac15921cb2cc041c2ef458d5522ff6eb143ec3e37e2d
 
 build:
   noarch: python
